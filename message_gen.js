@@ -1,3 +1,4 @@
+// Set arrays wit adjectives, nouns and suffixes
 let adjs = ["Grand", "Petit", "Funky", "Rapide", "Mystique", "Légendaire", "Brillant", "Étrange", "Marrant", "Rêveur"];
 let nouns = ["Dragon", "Renard", "Tigre", "Étoile", "Ombre", "Pirate", "Mage", "Chevalier", "Phénix", "Vagabond"];
 let suffixes = ["du Désert", "des Bois", "Volant", "Céleste", "de l'Ouest", "Nocturne", "du Chaos", "Rieur", "Flamboyant", "Silencieux"];
@@ -10,15 +11,13 @@ const getRandomName = () => {
     return randomName;
 }
 
-console.log(getRandomName());
-console.log(getRandomName());
 
+//Test of the fucntion getRandomName
 console.log(getRandomName());
-
 console.log(getRandomName());
-
 console.log(getRandomName());
-
+console.log(getRandomName());
+console.log(getRandomName());
 console.log(getRandomName());
 
 
